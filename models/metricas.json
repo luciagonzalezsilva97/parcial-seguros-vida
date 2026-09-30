@@ -1,0 +1,23 @@
+{
+  "resultados_por_modelo": {
+    "logistic_regression": {
+      "accuracy": 0.9192,
+      "precision": 0.6432,
+      "recall": 0.9337,
+      "f1": 0.7617,
+      "roc_auc": 0.9805
+    },
+    "random_forest": {
+      "accuracy": 0.9208,
+      "precision": 0.6606,
+      "recall": 0.8795,
+      "f1": 0.7545,
+      "roc_auc": 0.9771
+    }
+  },
+  "mejor_modelo": "logistic_regression",
+  "fairness_tasa_no_asegurable_por_sexo": {
+    "F": 0.20172413793103447,
+    "M": 0.2
+  }
+}
